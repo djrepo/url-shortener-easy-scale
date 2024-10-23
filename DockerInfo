@@ -1,0 +1,13 @@
+##step1 -Root of the project
+docker compose up
+Run java -jar {build}
+
+## Some Docker commands
+## Pulling redis image from docker hub
+docker pull redis
+
+## Running the container
+docker run -d -p 6379:6379 --name my-redis redis
+
+## Running MongoDB container :
+docker run -d -p 27017:27017 --name example-mongo mongo:latest
